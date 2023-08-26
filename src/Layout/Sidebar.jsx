@@ -15,7 +15,7 @@ const Sidebar = () => {
   </div> 
   <div className="drawer-side">
     <label htmlFor="my-drawer-2" className="drawer-overlay"></label> 
-                <div className="menu lg:p-4 lg:w-80 min-h-full bg-indigo-950 text-white">
+                <div style={{height:"100%"}} className="menu lg:p-4 lg:w-80  bg-indigo-950 text-white">
                     <div className="flex"><div><img src={vector} alt="" /></div><div className="ml-3">
                     <img src={NFT} alt="" /></div></div>
       <Link to={"/"}><div className="flex items-center"><div><img  src={baseLineToken} alt="" /></div><div><h1 className="text-2xl font-bold ">Token Address</h1 ></div></div></Link>
